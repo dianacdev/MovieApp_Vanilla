@@ -1,8 +1,72 @@
+*{
+    box-sizing: border-box;
+
+}
+
 body{
-    background-color: whitesmoke;
-    /* background: #141414; */
-    color:#222222;
+    background: #141414;
+    color: whitesmoke;
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Nunito Sans', sans-serif;
 }
 
+h3{
+    color:whitesmoke;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: #141414;
+    padding: 10px;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.navbar .search-container{
+    float: right;
+}
+form{
+    background-color: #151f30;
+    width: 300px;
+    height: 43px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+input{
+    all:unset;
+    font:15px system-ui;
+    color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+
+}
+
+.thumbnail{
+    height: 50%;
+    width: 75%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.column{
+    float:left;
+    width: 25%;
+    padding: 10px 10px;
+}
+
+.card{
+    border-radius: 15px;
+    padding: 3%;
+    text-align: center;
+    background-color: #151f30;
+}
