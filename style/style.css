@@ -52,8 +52,8 @@ input{
 }
 
 .thumbnail{
-    height: 50%;
-    width: 75%;
+    height: 100%;
+    width: 100%;
     border-radius: 10px;
     object-fit: cover;
 }
@@ -69,4 +69,8 @@ input{
     padding: 3%;
     text-align: center;
     background-color: #151f30;
+    flex: 1;
+}
+.section{
+    display: flex;
 }
